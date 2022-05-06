@@ -76,3 +76,40 @@
 // tiene son vocales
 // 12. Escribe un programa que pida una frase y escriba cuántas veces aparecen
 // cada una de las vocales
+
+//13.Escribe un programa que pida un numero y nos diga si es divisible 
+//por 2,3,5 o 7(solo hay que comprobar si lo es por una de los cuatro)
+// var n1 = prompt("Escribe un numero");
+// if (n1 % 2 === 0 || n1 % 3 === 0 || n1 %5 === 0 || n1 % 7=== 0){
+//     document.write("Es divisible por 2,3,5 o 7");
+// } else {
+// document.write("No es divisible ni por 2,ni por 3,ni por 5 ni por 7 ")
+// }
+
+//14.Aniadir al ejercicio anterior que nos diga por cual de los cuatro es divisible
+//(hay que decir todos por los que es divisible )
+// var n1 = prompt ("Escribe un numero");
+// if (n1 % 2 === 0 || n1 % 3 === 0 || n1 % 5 === 0 || n1 % 7 ===0 ){
+// if (n1 % 2 ===0) {
+//     document.write("Es divisible por 2.");
+// }
+// if (n1 % 3 === 0 ){
+//     document.write("Es divisible por 3.");
+// }
+// if (n1 % 5 === 0){
+//     document.write("Es divisible por 5.");
+// }
+// if (n1 % 7 === 0){
+//     document.write ("Es divisible por 7.");
+// }
+// }else {
+//     document.write("No es divisible ni por 2, ni por 3, ni por 5,ni por 7");
+// }
+//15. Escribir un programa que escriba en pantalla los divisores de un numero dado
+// var n1 = prompt ("Ingrese un numero")
+// var i;
+// for (i=2;i<=(n1/2) ;i++ ){
+//     if (n1 % i === 0 ){
+//     document.write(i,",")
+//     }
+// }
