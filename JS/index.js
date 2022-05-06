@@ -108,3 +108,51 @@
 //     document.write(i,",")
 //     }
 // }
+
+//16.Escribir un programa que escriba en pantalla los divisores comunes de dos numeros dados
+//var n1 = prompt ("Ingrese un numero");
+//var n2 = prompt ("Ingrese un numero");
+//var menor;
+//var i;
+//if (n1 < n2 ){
+//    menor=n1
+//}else {
+//    menor=n2
+//}
+//for (i=2;i<=20(menor/2);i++){
+//if (n1 % i ===0 && n2 % i === 0){
+//    document.write(i,",");
+//}
+//}
+
+//17.Escribir un programa que nos diga si un numero dado es primo(no es divisible 
+//por ninguno otro numero que no sea el mismo o la unidad )
+// var n1 = prompt ("Ingrese un numero");
+// var i;
+// primo=true;
+// for ( i=2 ; i <= (n1/2);i++){
+//     if (n1 % i === 0 ){
+//         primo=false;}
+// }
+// if (primo){
+//     document.write("Es primo")
+// }else{
+//     document.write("No es primo")
+// } 
+
+//18.Pide la edad y si es mayor de 18 anios indica que ya puede conducir 
+// var edad = prompt("Ingrese edad")
+// if (edad>=18) {
+//     document.write("Puede conducir")
+// }else {
+//     document.write("No puede conducir")
+// }
+//19.Pide una nota(numero).Muestra la calificacion segun la nota:
+//0-3: Muy deficiente
+//3-5: Insuficiente
+//5-6: Suficiente
+//6-7: Bien
+//7-9: Notable
+//9-10: Sobresaliente
+//var nota= prompt("Ingrese la nota")
+
