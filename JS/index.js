@@ -197,15 +197,19 @@
 //21.Realiza un script que pida numeros hasta que se pulse "cancelar".
 //Si no es un numero debera indicarse con un "alert" y seguir pidiendo.
 //Al salir con "cancelar" debera indicarse la suma total de los numeros introducidos
-Resultado=0;
-do{
-    var num= prompt("Ingrese un numero")
-    if (num= parseInt(num)){
-        Resultado=Resultado+num
-    }
-    else {alert("No es un numero")}
-} 
-while (confirm("Desea continuar"));
-document.write(Resultado)
+// Resultado=0;
+// do{
+//     var num= prompt("Ingrese un numero")
+//     if (num= parseInt(num)){
+//         Resultado=Resultado+num
+//     }
+//     else {alert("No es un numero")}
+// } 
+// while (confirm("Desea continuar"));
+// document.write(Resultado)
+
+//22
+
+//23
 
 
