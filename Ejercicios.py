@@ -12,6 +12,6 @@
 
 #4) Escribe un programa que pida un número, pida otro número 
 #y escriba el resultado de sumar estos dos números.
-#A=input("Ingrese un numero")
-#B=input("Ingrese otro numero")
-#print(int(A) + int(B) )
+A=int(input("Ingrese un numero"))
+B=int(input("Ingrese otro numero"))
+print(A + B)
