@@ -39,3 +39,10 @@
 
 #a=int(input("Ingrese un numero"))
 #for () 
+
+try:
+    print(1)
+except:
+    print(2)
+finally:
+    print(3)

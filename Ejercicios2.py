@@ -44,9 +44,15 @@ for i in range(len(cambio)):
 #5)Crear una funcion lambda que devuelva el cuadrado de un valor
 # recibido como parametro.Desarrollar ademas un programa para
 # verificar el comportamiento de la funcion 
+'''
 cuadrado = lambda x: x**2
 n=int(input("Ingrese un numero"))
-print(cuadrado(n))        
+print(cuadrado(n))
+''' 
+#6)Crear una funcion lambda para comprobar si un numero es 
+# par o impar.Desarrollar ademas un programa para verificar
+# el comportamiento de la funcion.
+       
 #7)
 '''
 n=int(input("Ingrese un numero entero >a 10:"))
@@ -59,3 +65,6 @@ print(l)
 for i in range(n-10,n,1):
     print(l[i],end=" , ")
 '''
+#8)Eliminar de una lista de palabras que se encuentren en una 
+#segunda lista.Imprimir la lista original de palabras a 
+#eliminar y la lista resultante 
