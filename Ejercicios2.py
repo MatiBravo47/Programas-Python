@@ -1,5 +1,4 @@
 #1)
-'''
 def mayor_de_3(n1,n2,n3):
     mayor=0
     if n1>n2 and n1>n3: 
@@ -15,11 +14,10 @@ def mayor_de_3(n1,n2,n3):
 
 #Programa principal 
 print(f'El mayor es: {mayor_de_3(3,4,1)}')
-'''
+
 
 
 #3)
-'''
 precio=int(input("Ingrese el total: "))
 pago=int(input("Ingrese el pago del cliente : "))
 while pago<precio:
@@ -40,21 +38,18 @@ print (cambio)
 for i in range(len(cambio)):
     if cambio [i]>0:
         print(cambio[i],billetes[i])
-'''
 #5)Crear una funcion lambda que devuelva el cuadrado de un valor
 # recibido como parametro.Desarrollar ademas un programa para
 # verificar el comportamiento de la funcion 
-'''
 cuadrado = lambda x: x**2
 n=int(input("Ingrese un numero"))
 print(cuadrado(n))
-''' 
 #6)Crear una funcion lambda para comprobar si un numero es 
 # par o impar.Desarrollar ademas un programa para verificar
 # el comportamiento de la funcion.
        
 #7)
-'''
+
 n=int(input("Ingrese un numero entero >a 10:"))
 while n<10:
     n=int(input("Error_Ingrese un numero entero >a 10:"))
@@ -64,7 +59,6 @@ for i in range (1,n+1):
 print(l)
 for i in range(n-10,n,1):
     print(l[i],end=" , ")
-'''
 #8)Eliminar de una lista de palabras que se encuentren en una 
 #segunda lista.Imprimir la lista original de palabras a 
 #eliminar y la lista resultante 
